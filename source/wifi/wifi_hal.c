@@ -3318,6 +3318,11 @@ INT wifi_getApIndexFromName(CHAR *inputSsidString, INT *output_int)
     return RETURN_ERR;
 }
 
+BOOL wifi_getRegDomain(INT radioIndex, UINT *reg_domain)
+{
+    return RETURN_ERR;
+}
+
 /**
  OPENSYNC WIFI HAL EXTENSIONS END
 */
